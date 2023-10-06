@@ -1,0 +1,53 @@
+#! /bin/bash
+**************************************************************************************************
+echo "enter your age please"
+read a
+If [ $a -gt 18 ]; then
+echo "congratulation bhai!!!you are eligible for voting"
+else
+echo " sorry bhai!!! you are not eligible"
+fi
+date
+****************************************************************************************************
+#! /bin/bash
+echo "enter the first number a"
+read a
+echo "enter the first number b"
+read b
+
+If [ $a -gt $b ]; then
+
+#! /bin/bash
+i=10
+while [ $i -ge 1 ]
+do
+echo "$i"
+let i--i;
+done
+************************************************************
+
+#! /bin/bash
+function jamuna ( ) {
+ echo "this is line 1"
+ echo "this is line 2"
+ echo "this is line 3"
+
+}
+#calling function
+jamuna
+
+*******************************************************************************************
+Linux is a free and open-source operating system kernel that serves as the core component of many Unix-like operating systems. The term "Linux" is often used to refer to these complete operating systems, which are typically called Linux distributions or distros.
+
+The Linux kernel was initially created by Linus Torvalds in 1991 and has since been developed collaboratively by a global community of programmers. It is released under the GNU General Public License (GPL), which allows anyone to view, modify, and distribute the source code freely.
+
+Linux has become widely popular due to its stability, security, and versatility. It is commonly used in a variety of computing environments, including servers, desktop computers, mobile devices, embedded systems, and supercomputers. Many different Linux distributions exist, each with its own set of software packages and configurations, catering to various use cases and preferences.
+
+Some well-known Linux distributions include Ubuntu, Debian, Red Hat Enterprise Linux (RHEL), CentOS, Fedora, openSUSE, and many others. Linux has a vibrant and active community of users and developers who contribute to its ongoing development and improvement.  
+*******************************************************************************************
+
+grep is a command-line utility in Unix-like operating systems, including Linux, that stands for "Global Regular Expression Print.
+" It is primarily used for searching and manipulating text based on regular expressions (regex) or simple patterns within files. 
+grep is a powerful tool for text searching and filtering, and it is often used in conjunction with other commands and scripting to 
+perform complex text-processing tasks.
+*******************************************************************************************
